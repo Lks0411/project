@@ -16,7 +16,7 @@ body::before {
     background-size: cover;
     background-position: center;
     z-index: -1;
-    backdrop-filter: blur(1000px);
+   
   }
   
 body{
@@ -111,7 +111,7 @@ body{
     width: 75%;
     transform: translate(-50%,-50%);
     height: 550px;
-    background: url('image/001.jpg')no-repeat;
+    background: url('image/002.jpg')no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10px;

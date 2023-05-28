@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    p::before {
+      content: "abc";
+      display: block;
+      height: 2px;
+      background-color: #000;
+      margin-bottom: 10px;
+    }
+
+    p::after {
+      content: "123";
+      display: block;
+      height: 2px;
+      background-color: #000;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <p>This is a paragraph.</p>
+</body>
+</html>
