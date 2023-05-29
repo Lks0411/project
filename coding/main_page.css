@@ -89,14 +89,13 @@
     top : 11%;
     left: 0%;
     margin-left: 5%;
-   
 }
 
-.recommend_playlist .head {
+.head {
     border: 2px solid red;
     position: relative;
     height: 20%;  
-    z-index: 1;
+   
 }
 
 .head_topic {
@@ -104,13 +103,11 @@
     position: relative;
     top:25%;
     height:50px;
-    
-}
-
-.head_topic p{
     font-size: 40px;
     text-align: center;
 }
+
+
 
 .second_head {
     border: 2px solid red;
@@ -118,7 +115,7 @@
     width : 90%;
     height: 13%;  
     margin-left: 5%;
-
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,22 +124,26 @@
 
 .tab_item{
     margin: 65px;
+    
 }
 
 .major_content{
     border: 2px solid red;
     height: 250px;
-
     display: flex;
-   
     padding: 0;
     justify-content: center;
     align-items: center;
-   
+    overflow: hidden;
 }
 
 .playlist_list_slide{
-    list-style: none;
+    list-style-type: disc;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    
+    
 }
 .playlist_item_box{
     border: 3px solid yellow;
@@ -150,14 +151,27 @@
     width : 240px;
     list-style: none;
     margin-right: 10px;
-    float: left;
     margin: 10px;
+    display: inline-block;
+    
+   
 }
 
 .li_image img{
     width : 150px;
     height :150px;
 }
+
+.recommend_song {
+    border: 1px solid black;
+    width : 90%;
+    height:45%;  
+    position: absolute;
+    top : 51%;
+    left: 0%;
+    margin-left: 5%;
+}
+
 
 
 
