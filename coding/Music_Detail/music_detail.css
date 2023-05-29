@@ -1,0 +1,112 @@
+body{
+    background-color: #202020;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    letter-spacing: 1px;
+}
+
+.header2{
+    margin-top: 23px;
+    padding-top: 20px;
+    background-image: url(./剧院，歌剧，音乐厅，2019，高品质，照片壁纸_1920x1080[10wallpaper.com].jpg);
+    background-repeat: round;
+}
+
+.web_name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -2px;
+    color: #ffe4c4;
+}
+
+.music_logo{
+    width: 36px;
+    height: 36px;
+    position: relative;
+    bottom:-10px;
+}
+
+.narvar_big{
+    display: flex;
+}
+
+.navbar{
+    flex: 1;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    padding: 10px;
+    color: #e4e4e4;
+    font-size: 25px;
+    font-weight: bold;    
+    text-decoration: none;
+}
+
+.navbar li a.page_owner{
+    text-decoration: underline;  
+    text-decoration-style: wavy;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.table{
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.table_img{
+    background-color: #e4e4e4;
+    width: 200px;
+}
+
+.table img{
+    margin: 20px 20px 20px 20px;
+    width: 200px;
+}
+
+.table_gechi p{
+    margin: 20px 10px 20px 20px;
+    max-height: 580px;
+    overflow: auto;
+}
+
+.table_gechi{
+    background-color: #ffe4c4;
+    width: 500px;
+}
+
+.table_detail p{
+    margin: 20px;
+    max-height: 330px;
+    overflow: auto;
+}
+
+.table_detail{
+    background-color: #ffe4c4;
+}
+
+.music_name{
+    color: #202020;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: -2px;
+
+}

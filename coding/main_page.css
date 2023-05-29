@@ -165,11 +165,57 @@
 .recommend_song {
     border: 1px solid black;
     width : 90%;
-    height:45%;  
+    height: 500px;  
     position: absolute;
     top : 51%;
     left: 0%;
     margin-left: 5%;
+}
+
+.debutlist_list{
+    border: 2px solid red;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+.debutlist_item{
+    border: 3px solid yellow;
+    
+    font-size: 14px;
+    cursor: pointer;
+    list-style: none;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 calc(33.33% - 10px);
+    margin: 5px;
+}
+
+.debutlist_itembox{
+    width:50px;
+    display: flex;
+}
+
+.debutlist_link{
+    width: 10px;
+    flex: none;
+    align-items:flex-start;
+    justify-content:flex-start;
+}
+.debutlist_img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+
+.debutlsit_conf{
+    float: left;
 }
 
 
