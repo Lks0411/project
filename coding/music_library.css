@@ -114,3 +114,34 @@ body{
     margin: 30px;
     list-style: none;
 }
+
+.container{
+    border: white 1px solid;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    width: 85%;
+    height: 500px;
+}
+
+.container h2{
+    border: white 1px solid;
+    font-size: 28px;
+    position: relative;
+    margin-top:10px;
+    margin-left: 25px;
+    width: 10em;
+    text-align: center;
+}
+
+.container .button{
+    border: white 1px solid;
+    position: relative;
+    width: 3em;
+    float: right;
+    margin-right: 45px;
+    top: -6%;
+    border-radius: 10px;
+    text-align: center;
+}
