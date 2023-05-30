@@ -145,3 +145,27 @@ body{
     border-radius: 10px;
     text-align: center;
 }
+
+.container  .album{
+    border: white 1px solid;
+    position: relative;
+    top: 5%;
+    width: 95%;
+    margin-left: 2%;
+    height: 70%;
+    display: flex;
+    
+    
+}
+
+.container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.container li{
+    margin: 60px;
+}
