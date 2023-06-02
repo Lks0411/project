@@ -165,6 +165,10 @@ body {
     border: none;
     outline: none;
 }
+.form button{
+    position: relative;
+    left: 15%;
+}
 .a-container {
     z-index: 100;
     left: calc(100% - 600px);
