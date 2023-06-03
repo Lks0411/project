@@ -6,28 +6,31 @@
 }
 body{
     line-height: 1.5;
-    background-color: black;
+    background-image: url('../image/562d8ea6cbb44503a6879b21f7dadd37.jpg');
 }
 .header{
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
     padding: 25px 12.5%;
-    background-color: transparent;
+    background-color: #2c3e50;;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 100;
 }
 
+.header span img{
+    height: 40px;
+    
+}
 .navbar a{
     position: relative;
     font-size: 16px;
-    color: #e4e4e4;
     text-decoration: none;
     font-weight: 500;
     margin-right: 30px;
+    color: #e4e4e4;
 }
 
 .navbar a::after{
@@ -86,74 +89,78 @@ body{
 }
 
 .head_container{
-    border: white 1px solid;
+    
     position: absolute;
     top: 10%;
     left: 7%;
     width: 85%;
     height: 100px;
+    
 }
 
 .head_container ul{
     width: 100%;
     height: 100%;
-    border: white 1px solid;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-
-   
+    color: black;
 }
 .head_container li{
-    border: white 1px solid;
+    border: black 1px solid;
     padding: 20px;
     width: 30%;
     text-align: center;
     border-radius: 10px;
     margin: 30px;
     list-style: none;
+    background-color: #e4d4d4e8;
 }
 
 .container{
-    border: white 1px solid;
-    color: white;
+    border: black 1px solid;
+    color: black;
     position: absolute;
-    top: 25%;
+    top: 21%;
     left: 7%;
     width: 85%;
     height: 500px;
+    background-color: #64b9ebec;
+ 
 }
 
 h2{
-    border: white 1px solid;
+    border: black 1px solid;
     font-size: 28px;
     position: relative;
     margin-top:10px;
     margin-left: 25px;
     width: 10em;
     text-align: center;
+    background-color: #9be7e170;
 }
 
 .button{
-    border: white 1px solid;
+    border: black 1px solid;
     position: relative;
     width: 3em;
     float: right;
     margin-right: 45px;
-    top: -6%;
     border-radius: 10px;
     text-align: center;
+    top: -6%;
+    background-color: #e2e6deec;
 }
 
 .container  .album{
-    border: white 1px solid;
+    border: black 1px solid;
     position: relative;
     top: 1%;
     width: 95%;
     margin-left: 2%;
     height: 400px;
     display: flex;
+    background-color: #e2e6deec;
     
     
 }
@@ -187,29 +194,45 @@ h2{
 
 .second_container{
   position: absolute;
-  top: 80%;
+  top: 85%;
   left: 7%;
   width: 85%;
-  height: 500px;
-  border: white 1px solid;
-  color: white;
+  border: black 1px solid;
+  color: black;
   justify-content: center;
   align-content: center;
+  background-color: #64b9ebec;
 }
 
+.content{
+    position: relative;
+    border: 1px solid black;
+    width: 95%;
+    height: 90%;
+    background-color: white;
+    margin-top: 2%;
+    margin-left:2% ;
+    margin-bottom:2%;
+    margin-right:2%;
+    background-color: #e2e6deec;
+}
 .song_style{
     display: grid;
     column-gap: 20px;
     row-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 7%;
+    margin :3%;
+    margin-top: 5%;
+   
     
     
 }
 .song_style div{
-    border: white 1px solid;
+    border: black 1px solid;
     height: 50px;
     text-align: center;
+    background-color: #ecd4a7;
+    
 }
 
 .song_style div p{
