@@ -30,6 +30,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    letter-spacing: normal;
+    
 }
 .navbar a{
     position: relative;
