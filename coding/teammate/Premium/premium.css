@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 body{
     background-color: #202020;
     font-family: 'Poppins', sans-serif;
@@ -12,54 +19,88 @@ body{
     color: bisque;
 }
 
-.music_logo{
-    width: 36px;
-    height: 36px;
+
+.header{
     position: relative;
-    bottom:-10px;
-}
-
-.narvar_big{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 12.5%;
+    background-color: #2c3e50;;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.navbar{
-    flex: 1;
-}
-
-.navbar ul{
-    list-style: none;
-    margin: 0;
-    text-align: center;
-}
-
-.navbar li{
-    display: inline-block;
-}
-
-.navbar li a{
-    padding: 10px;
-    color: #e4e4e4;
-    font-size: 25px;
-    font-weight: bold;    
+.navbar a{
+    position: relative;
+    font-size: 16px;
     text-decoration: none;
+    font-weight: 500;
+    margin-right: 30px;
+    color: #e4e4e4;
 }
 
-.navbar li a.page_owner{
-    text-decoration: underline;  
-    text-decoration-style: wavy;
+.navbar a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: #e4e4e4;
+    border-radius: 5px;
+    transform: translateY(10px);
+    opacity: 0;
+    transition:.5s;
 }
 
-.navbar li a:hover{
-    text-decoration: underline;
-    text-decoration-style: wavy;
+.navbar a:hover::after{
+    transform:translateY(0);
+    opacity: 1;
 }
+.search-bar{
+    width:250px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #e4e4e4;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+.search-bar input{
+    width:100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color:#e4e4e4;
+    padding-left: 10px;
+}
+.search-bar input::placeholder{
+    color:#e4e4e4;
+}
+.search-bar button{
+    width: 40px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.search-bar button i{
+    font-size: 22px;
+    color: #e4e4e4;
+}
+
 
 .web_picture{
     background-color:black;
     background: url(./剧院，歌剧，音乐厅，2019，高品质，照片壁纸_1920x1080[10wallpaper.com].jpg);
     background-repeat:repeat;
-    margin-top: 25px;
+    
     width: 100%;
     height: 100%;
 }
@@ -67,6 +108,7 @@ body{
 .vip_title{
     font-size: 50px;
     text-align: center;
+    margin-top: 90px;
 }
 .title{
     color: #e4e4e4;
@@ -76,9 +118,10 @@ body{
 
 .vip_area{
     color:#202020;
-    height: 320px;
+    height: 350px;
     background-color: bisque;
     padding: 1px 0px 50px;
+    
 }
 
 .vip_benefits img{
