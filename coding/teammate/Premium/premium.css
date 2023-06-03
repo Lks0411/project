@@ -1,0 +1,149 @@
+body{
+    background-color: #202020;
+    font-family: 'Poppins', sans-serif;
+    color: #e4e4e4;
+    letter-spacing: 1px;
+}
+
+.web_name{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    color: bisque;
+}
+
+.music_logo{
+    width: 36px;
+    height: 36px;
+    position: relative;
+    bottom:-10px;
+}
+
+.narvar_big{
+    display: flex;
+}
+
+.navbar{
+    flex: 1;
+}
+
+.navbar ul{
+    list-style: none;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    padding: 10px;
+    color: #e4e4e4;
+    font-size: 25px;
+    font-weight: bold;    
+    text-decoration: none;
+}
+
+.navbar li a.page_owner{
+    text-decoration: underline;  
+    text-decoration-style: wavy;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+
+.web_picture{
+    background-color:black;
+    background: url(./剧院，歌剧，音乐厅，2019，高品质，照片壁纸_1920x1080[10wallpaper.com].jpg);
+    background-repeat:repeat;
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+}
+
+.vip_title{
+    font-size: 50px;
+    text-align: center;
+}
+.title{
+    color: #e4e4e4;
+    text-align: center;
+    font-size: 50px;
+}
+
+.vip_area{
+    color:#202020;
+    height: 320px;
+    background-color: bisque;
+    padding: 1px 0px 50px;
+}
+
+.vip_benefits img{
+    width: 75px;
+    height: 75px;
+}
+
+.vip_benefits p{
+    font-size: 25px;    
+}
+
+.vip_benefits{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;  
+    table-layout: fixed;
+}
+
+.product-container{
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 18px 18px 18px 18px;
+    margin: 18px 18px 18px 18px;
+    letter-spacing: 0px;
+}
+
+.product-area{
+    background-color: bisque;
+    border: 1px solid black;
+    padding: 18px 16px 18px 16px;
+    margin: 18px 18px 36px 18px;
+}
+
+.purchase_discount{
+    text-decoration: line-through;
+}
+
+.purchase_price{
+    border-top: 1px solid black;
+    margin-bottom: 18px;
+}
+
+.purchase_ways{
+    margin-bottom: 18px;
+}
+
+.VIP{
+    font-size: 150px;
+    margin-right: 150px;
+    padding: 45px 10px 10px 100px;
+}
+
+.VIP img{
+    margin-left: -100px;
+}
+
+.subscribe_button{
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    color: #202020;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subscribe_button:hover{
+    background-color: #8ed795;
+}

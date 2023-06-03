@@ -1,0 +1,90 @@
+body{
+    margin: 40px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #e4e4e4;
+    letter-spacing: 1px;
+    background-color: #ffe4c4;
+}
+
+.payment_center{
+    width: 38%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.payment_Methods{
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #202020;
+    width: 480px;
+    color:#ffe4c4;
+    margin: 0px 0px 20px 0px;
+    padding: 10px 0px 10px 30px;
+}
+
+.checkout{
+    border-top: #e4e4e4;
+}
+
+.payment{
+    background-color: black;
+    width: 510px;
+    margin: -20px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px solid #e4e4e4;
+    border-top: 1px solid #e4e4e4;
+    text-align: center;
+    font-weight: bold;
+}
+
+.payment_title{
+    font-size: 30px;
+    color: #e4e4e4;
+    margin: 20px;
+    padding-top: 20px;
+    letter-spacing: 0px;
+}
+
+.payment_ways{
+    font-size: 25px;
+    color: #e4e4e4;
+    margin: 20px;
+    padding: 0px;
+}
+
+.table{
+    width: 510px;
+    background-color:#202020;
+    margin: 0px 10px 0px 0px;
+    padding: 0px 10px 0px 0px;
+}
+
+.payment_ways1 td{
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.table td img{
+    width: 100px;
+    margin: 20px 20px 10px 20px;
+}
+
+.table td.payment_title1{
+    padding-left: 20px;
+    text-align: left;
+    color:#ffe4c4;
+}
+
+.payment_button{
+    background-color: #ffe4c4;
+    border-radius: 5px;
+    color: #202020;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.payment_button:hover{
+    background-color: #8ed795;
+}

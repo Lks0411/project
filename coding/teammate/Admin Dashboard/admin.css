@@ -1,0 +1,299 @@
+*{
+  font-family: sans-serif;
+}
+body{
+  width: 100%;
+  height: 255vh;
+  background: linear-gradient(
+      to top,
+      rgb(225, 225, 225) 10%,
+      rgb(128 , 128 , 128) 90%
+  );
+}
+.topbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  background-color: black;
+}
+.create{
+  position: relative;
+  top: 88px;
+  left: 1185px;
+  background-color: #03A9F3;
+  width: 125px;
+  height: 35px;
+  border-radius: 20px;
+  border: 1px solid #00e1ff;
+}
+.create p{
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: -17px;
+  left: 18px;
+}
+.create :hover{
+  cursor: pointer;
+}
+.profile{
+  width: 36px;
+  height: 36px;
+  border-radius: 500px;
+}
+.profile-{
+  position: fixed;
+  margin: 18px 220px;
+}
+.profilename{
+  position: fixed;
+  margin: 0px 260px;
+}
+.profilename p{
+  color: #e4e4e4;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
+
+/*Playlist*/
+.playlist{
+  position: absolute;
+  top: 150px;
+  left: 240px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 0px 20px;
+  background-color: white;
+  padding: 10px;
+}
+.playlist h1{
+  position: absolute;
+  margin: -50px 0px;
+  color: white;
+  font-size: 21px;
+}
+.playlist p{
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+}
+.grid-size{
+  width: 160px;
+  height: 160px;
+}
+.grid-item {
+  background-color: transparent;
+  padding: 0px;
+  font-size: 0px;
+  text-align: center;
+}
+.wee{
+  color:gray;
+  font-size: 10px;
+  float: left;
+}
+.playlist2{
+  position: absolute;
+  top: 710px;
+  left: 240px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  gap: 0px 28px;
+  background-color: white;
+  padding: 10px;
+}
+.playlist2 h1{
+  position: absolute;
+  margin: -50px 0px;
+  color: white;
+  font-size: 21px;
+}
+.playlist2 p{
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  float: left;
+}
+.playlist2 .grid-size{
+  width: 244px;
+  height: 122px;
+}
+.playlist2 .grid-item {
+  background-color: transparent;
+  padding: 0px;
+  font-size: 0px;
+  text-align: center;
+}
+/*Playlist*/
+
+/*Table*/
+tr:nth-child(even) {background-color: #a1a1a1;}
+tr:nth-child(odd) {background-color: white;}
+
+.table{
+  position: absolute;
+  margin: 1100px 232px;
+  color:black;
+  font-size: 10px;
+  background-color: white;
+}
+.table h1{
+  position: relative;
+  color: black;
+  left: 15px;
+}
+#trendingsongs{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 1080px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#trendingsongs td{
+  border: transparent;
+  padding: 8px;
+}
+#trendingsongs tr:hover{
+  cursor: pointer;
+  background-color: #00f7ff;
+}
+.songs-number{
+  color: #3a3a3a;
+  font-size: 16px;
+}
+.songs-artist{
+  color: #3a3a3a;
+  font-size: 10px;
+}
+/*Table*/
+
+/*Logo Name*/
+.image2{
+  width: 36px;
+  height: 36px;
+  border-radius: 500px;
+}
+.img2{
+  position: fixed;
+  margin: 18px 1150px;
+}
+.img2-name{
+  position: fixed;
+  top: 4px;
+  left: 1210px;
+}
+.img2-name p{
+  color: #e4e4e4;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
+/*Logo Name*/
+
+/*SearchBar*/
+.search-bar{
+  position: fixed;
+  width:250px;
+  height: 45px;
+  background: transparent;
+  border: 2px solid #e4e4e4;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  top: 20px;
+  left: 375px;
+}
+.search-bar input{
+  width:100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color:#e4e4e4;
+  padding-left: 10px;
+}
+.search-bar input::placeholder{
+  color:#e4e4e4;
+}
+.search-bar button{
+  width: 40px;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.search-bar button i{
+  font-size: 22px;
+  color: #e4e4e4;
+}
+/*SearchBar*/
+
+ /* The side navigation menu */
+ .sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+} 
+
+
+

@@ -12,12 +12,12 @@ body::before {
     left: 0%;
     width: 100%;
     height: 100%;
-    background: url('image/001.jpg') no-repeat;
+    background: url('../image/003.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     z-index: -1;
    
-  }
+}
   
 body{
     background: #202020; 
@@ -111,7 +111,7 @@ body{
     width: 75%;
     transform: translate(-50%,-50%);
     height: 550px;
-    background: url('image/002.jpg')no-repeat;
+    background: url('../image/001.jpg')no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -178,7 +178,6 @@ body{
     width: 100%;
     height: 100%;
     background: transparent;
-   
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     color: #e4e4e4;
