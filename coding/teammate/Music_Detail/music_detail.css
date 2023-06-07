@@ -1,8 +1,18 @@
-body{
-    background-color: #202020;
-    font-family: 'Poppins', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
 }
-
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        to top,
+        #5a5a5a 15%,
+        #202020 85%
+    );
+}
 .header{
     letter-spacing: 1px;
 }
@@ -10,60 +20,86 @@ body{
 .header2{
     margin-top: 23px;
     padding-top: 20px;
-    background-image: url(./剧院，歌剧，音乐厅，2019，高品质，照片壁纸_1920x1080[10wallpaper.com].jpg);
-    background-repeat: round;
+    
 }
 
-.web_name{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: -2px;
-    color: #ffe4c4;
-}
-
-.music_logo{
-    width: 36px;
-    height: 36px;
+.header{
     position: relative;
-    bottom:-10px;
-}
-
-.narvar_big{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 12.5%;
+    background-color: #2c3e50;;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: normal;
+    
 }
-
-.navbar{
-    flex: 1;
-}
-
-.navbar ul{
-    list-style: none;
-    margin: 0;
-    text-align: center;
-}
-
-.navbar li{
-    display: inline-block;
-}
-
-.navbar li a{
-    padding: 10px;
-    color: #e4e4e4;
-    font-size: 25px;
-    font-weight: bold;    
+.navbar a{
+    position: relative;
+    font-size: 16px;
     text-decoration: none;
+    font-weight: 500;
+    margin-right: 30px;
+    color: #e4e4e4;
 }
 
-.navbar li a.page_owner{
-    text-decoration: underline;  
-    text-decoration-style: wavy;
+.navbar a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: #e4e4e4;
+    border-radius: 5px;
+    transform: translateY(10px);
+    opacity: 0;
+    transition:.5s;
 }
 
-.navbar li a:hover{
-    text-decoration: underline;
-    text-decoration-style: wavy;
+.navbar a:hover::after{
+    transform:translateY(0);
+    opacity: 1;
 }
+.search-bar{
+    width:250px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #e4e4e4;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+.search-bar input{
+    width:100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color:#e4e4e4;
+    padding-left: 10px;
+}
+.search-bar input::placeholder{
+    color:#e4e4e4;
+}
+.search-bar button{
+    width: 40px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.search-bar button i{
+    font-size: 22px;
+    color: #e4e4e4;
+}
+
 
 .table{
     padding-left: 50px;

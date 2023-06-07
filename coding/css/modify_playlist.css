@@ -1,0 +1,159 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  body{
+    height: 155vh;
+    background: linear-gradient(
+        to top,
+        rgb(225, 225, 225) 10%,
+        rgb(128 , 128 , 128) 90%
+    );
+  }
+  .topbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    z-index: 100;
+  }
+  
+  .sidebar {
+    position: fixed;
+    width: 200px;
+    background-color: #f1f1f1;
+    height:100vh;
+    top: 0;
+    left: 0;
+    
+  }
+  .option{
+    margin-top: 88px;
+  }
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    width: 100%;
+    
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  .header{
+    position: relative;
+    height: 90px;
+    width: 1200px;
+    display: flex;
+    margin-left: 220px;
+    align-items: center;
+  }
+  
+  .profile{
+    width: 36px;
+    height: 36px;
+    border-radius: 500px;
+    
+  }
+  
+  .profilename p{
+    color: #e4e4e4;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .profile-{
+
+    margin-left:  1250px;
+  }
+  
+  
+  .image2{
+    width: 60px;
+    height: 60px;
+    border-radius: 500px;
+    margin-right: 16px;
+  }
+
+  .img2-name p{
+   color: white;
+   font-size: 25px;
+   
+  }
+  
+  .topper_container{
+    position :absolute;
+    height: 100vh;
+    width: 80%;
+    top: 10%;
+    left: 250px;
+    
+  }
+  .container {
+   
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    top: 10%;
+    
+    
+  }
+
+  .container table {
+    position: relative;
+    table-layout: fixed;
+    border: 1px solid;
+    width: 800px;
+    height: 320px;
+    overflow: hidden;
+    zoom: 1;
+    
+   
+    
+    
+  }
+
+  .container table .top{
+    background-color: #64b9ebec;
+  }
+
+  .container table tr td{
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid;
+  }
+
+  .container td{
+    background-color: #e2e6deec
+  }
+  .playlist_code {
+    width: 10%;
+  }
+
+  .title{
+    width: 33%;
+  }
+  .operate{
+    width: 33%;
+  }
+
+  .more{
+    height: 50px;
+    font-size: 50px;
+  }
+
+
