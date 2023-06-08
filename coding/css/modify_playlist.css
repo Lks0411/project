@@ -8,10 +8,10 @@
   body{
     height: 155vh;
     background: linear-gradient(
-        to top,
-        rgb(225, 225, 225) 10%,
-        rgb(128 , 128 , 128) 90%
-    );
+      to top,
+      rgb(225, 225, 225) 10%,
+      rgb(128 , 128 , 128) 90%
+  );
   }
   .topbar{
     position: fixed;
@@ -100,7 +100,7 @@
     height: 100vh;
     width: 80%;
     top: 10%;
-    left: 250px;
+    left: 200px;
     
   }
   .container {
@@ -109,51 +109,117 @@
     height: 400px;
     position: relative;
     top: 10%;
-    
+    margin-left: 80px;
+  }
+  .container_head
+  {
+    height: 65px;
     
   }
+  .create{
+    position: relative;
+    background-color: #03A9F3;
+    width: 125px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid #00e1ff;
+    text-align: center;
+    
+    left: 770px;
+    top : 18px;
 
+  }
+  .create p{
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+    margin-right: 2px;
+  }
+  .search-bar{
+    position: relative;
+    display: flex;
+    width: 250px;
+    height: 30px;
+    bottom: 10px;
+    left: 350px;
+    
+  }
+  .search-bar input{
+    width:80%;
+    background: transparent;
+    border: 1px solid white;
+    font-size: 16px;
+    color:blue;
+    padding-left: 10px;
+}
+.search-bar button{
+  width: 40px;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.search-bar button i{
+  font-size: 22px;
+  color: #e4e4e4;
+}
+.search-bar input::placeholder{
+  color:#e4e4e4;
+}
   .container table {
     position: relative;
     table-layout: fixed;
-    border: 1px solid;
-    width: 800px;
+    width: 900px;
     height: 320px;
     overflow: hidden;
-    zoom: 1;
-    
-   
-    
-    
+    border: 1px solid;
+    border-collapse: collapse;
+
   }
 
   .container table .top{
-    background-color: #64b9ebec;
+    background-color: #F9F7E8;
+    border-bottom: 3px solid gray;
+    height: 35px;
   }
 
-  .container table tr td{
+  .container table tr {
     text-align: center;
     vertical-align: middle;
     border: 1px solid;
   }
 
   .container td{
-    background-color: #e2e6deec
+    background-color: #F9F7E8
+  }
+  .container table button{
+    width: 40px;
+    height: 50%;
+    margin-left: 10px;
   }
   .playlist_code {
     width: 10%;
   }
 
-  .title{
-    width: 33%;
-  }
   .operate{
-    width: 33%;
+    width: 300px
   }
-
   .more{
     height: 50px;
     font-size: 50px;
+  }
+
+  .entries{
+    display: flex;
+    
+    position: relative;
+    top: 10px;
+    
   }
 
 
