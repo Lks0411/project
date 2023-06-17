@@ -8,7 +8,11 @@
     <link rel="stylesheet" type="text/css" href="css/main_page.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-
+<script>
+    function redirectToPage(pageUrl) {
+    window.location.href = pageUrl;
+  }
+</script>
 <body>
     <header class="header"> 
         <div class="element">
@@ -17,11 +21,11 @@
                 <div class="img2-name"><p>TuneVibe</p></div>
             </div>    
                 <nav class="navbar"> 
-                        <a href="#">Home</a>
-                        <a href="#">Explore</a>
-                        <a href="#">Services</a>
-                        <a href="#">About</a> 
-                        <a href="#">Contact</a>       
+                    <a href="#" onclick="redirectToPage('main_page.html')">Home</a>
+                    <a href="#" onclick="redirectToPage('music_library.html')">Explore</a>
+                    <a href="#" onclick="redirectToPage('Premium.html')">Services</a>
+                    <a href="#" onclick="redirectToPage('About_us.html')">About</a> 
+                    <a href="#" onclick="redirectToPage('teammate/Contact Us/contactus.html')">Contact</a>       
                 </nav>
                 <form action="#" class="search-bar">
                     <input type="text" placeholder="Search..">

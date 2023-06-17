@@ -1,0 +1,248 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  body{
+    height: 155vh;
+    background: linear-gradient(
+      to top,
+      rgb(225, 225, 225) 10%,
+      rgb(128 , 128 , 128) 90%
+  );
+  }
+  .topbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    z-index: 100;
+  }
+  
+  .sidebar {
+    position: fixed;
+    width: 200px;
+    background-color: #f1f1f1;
+    height:100vh;
+    top: 0;
+    left: 0;
+    
+  }
+  .option{
+    margin-top: 88px;
+  }
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    width: 100%;
+    
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  .header{
+    position: relative;
+    height: 90px;
+    width: 1200px;
+    display: flex;
+    margin-left: 220px;
+    align-items: center;
+  }
+  
+  .profile{
+    width: 36px;
+    height: 36px;
+    border-radius: 500px;
+    
+  }
+  
+  .profilename p{
+    color: #e4e4e4;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .profile-{
+
+    margin-left:  1250px;
+  }
+  
+  
+  .image2{
+    width: 60px;
+    height: 60px;
+    border-radius: 500px;
+    margin-right: 16px;
+  }
+
+  .img2-name p{
+   color: white;
+   font-size: 25px;
+   
+  }
+  
+  .topper_container{
+    position :absolute;
+    height: 100vh;
+    width: 80%;
+    top: 10%;
+    left: 200px;
+    
+  }
+  .container {
+   
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    top: 55px;
+    left: 25px;
+  }
+  .headc{
+    width: 1100px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding-left:250px;
+    padding-top: 20px ;
+    background-color: black;
+   
+  }    
+  
+  .create{
+    position: relative;
+    background-color: #03A9F3;
+    width: 125px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid #00e1ff;
+    text-align: center;
+  }
+  .create p{
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+    margin-right: 2px;
+  }
+  .search-bar{
+    position: relative;
+    display: flex;
+    width: 250px;
+    height: 30px;
+    
+    
+  }
+  .search-bar input{
+    width:80%;
+    background: transparent;
+    border: 1px solid white;
+    font-size: 16px;
+    color:#e4e4e4;
+    padding-left: 10px;
+}
+.search-bar button{
+  width: 40px;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.search-bar button i{
+  font-size: 22px;
+  color: #e4e4e4;
+}
+.search-bar input::placeholder{
+  color:#e4e4e4;
+}
+  .container table {
+    position: relative;
+    table-layout: fixed;
+    width: 1100px;
+    height: 320px;
+    overflow: hidden;
+    border: 1px solid;
+    border-collapse: collapse;
+
+  }
+
+  .container table .top{
+    background-color: #F9F7E8;
+    border-bottom: 3px solid gray;
+    height: 35px;
+  }
+
+  .container table tr {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid;
+    height: 50px;
+  }
+
+  .container td{
+    background-color: #F9F7E8
+  }
+  .container table button{
+    width: 40px;
+    height: 35%;
+    margin-left: 10px;
+  }
+
+  table .Staff_code{
+    width: 78px;
+  }
+  table .Name{
+    width: 150px;
+  }
+  table .Gender{
+    width: 60px;
+  }
+  table .Age{
+    width: 60px;
+  }
+  table .Email{
+    width: 150px;
+  }
+  table .ContactNumber{
+    width: 150px;
+  }
+  .operate{
+    width: 220px
+  }
+  table .RegistrationDate{
+    width: 115px;
+  }
+  table .MembershipType{
+    width: 115px;
+  }
+  
+  .more{
+    height: 50px;
+    font-size: 50px;
+  }
+
+  .entries{
+    display: flex;
+    
+    position: relative;
+    top: 20px;
+  }
+  
+

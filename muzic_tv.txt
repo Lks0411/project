@@ -1,0 +1,43 @@
+CREATE table Singer(
+	SingerCode varchar(10) Primary Key ,
+	SingerName varchar(50) not null,
+	gender enum('Male','Female'),
+	birtday DATE DEFAULT '1981-1-1'
+   CHECK (SingerCode LIKE 'S%')
+);
+
+CREATE Table Album(
+ Albumcode varchar(10) PRIMARY KEY,
+ AlbumName varchar(50) not null,
+ singer varchar(10),
+ visitnum int
+ CHECK (AlbumCode LIKE 'A%'),
+ Foreign Key (singer) REFERENCES Singer(SingerCode)
+
+);
+
+
+Create table Music(
+MusicCode varchar(15) PRIMARY KEY,
+MusicName varchar(50),
+album  varchar(10),
+singer varchar(10),
+type enum('Pop','Rock','Hip Hop','Jazz','Eletronic')
+CHECK (MusicCode LIKE 'M%'),
+Foreign Key (singer) REFERENCES Singer(Singercode),
+Foreign Key (album)  REFERENCES Album(Albumcode)
+);
+
+CREATE table image(
+ Imgcode varchar(15) primary key,
+ image varchar(15),
+ Foreign Key(image) REFERENCES music(MusicCode),
+ DATA LONGBLOB
+);
+
+CREATE table audio(
+ Audiocode varchar(15) primary key,
+ music varchar(15),
+ Foreign Key(music) REFERENCES music(MusicCode),
+ DATA LONGBLOB
+)

@@ -106,16 +106,22 @@
   .container {
    
     width: 1000px;
-    height: 400px;
+    height: 500px;
     position: relative;
     top: 10%;
     margin-left: 80px;
   }
-  .container_head
-  {
-    height: 65px;
-    
-  }
+  .headc{
+    width: 900px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    padding-left:250px;
+    padding-top: 20px ;
+    background-color: black;
+   
+  }    
+  
   .create{
     position: relative;
     background-color: #03A9F3;
@@ -125,8 +131,7 @@
     border: 1px solid #00e1ff;
     text-align: center;
     
-    left: 770px;
-    top : 18px;
+    
 
   }
   .create p{
@@ -141,8 +146,7 @@
     display: flex;
     width: 250px;
     height: 30px;
-    bottom: 10px;
-    left: 350px;
+    
     
   }
   .search-bar input{
@@ -150,7 +154,7 @@
     background: transparent;
     border: 1px solid white;
     font-size: 16px;
-    color:blue;
+    color:#e4e4e4;
     padding-left: 10px;
 }
 .search-bar button{

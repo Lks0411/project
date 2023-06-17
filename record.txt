@@ -1,0 +1,11 @@
+
+Singer
+
+INSERT INTO `singer` (`SingerCode`, `SingerName`, `gender`, `birthday`) VALUES ('S01', 'Adele', 'Female', '1981-01-01')
+
+album
+INSERT INTO `album` (`Albumcode`, `AlbumName`, `singer`, `visitnum`) VALUES ('A01', '21', 'S01', NULL)
+
+Music
+INSERT INTO `music` (`MusicCode`, `MusicName`, `album`, `singer`, `type`) VALUES ('M001', 'Rolling in the Deep', 'A01', 'S01', NULL)
+INSERT INTO `music` (`MusicCode`, `MusicName`, `album`, `singer`, `type`) VALUES ('M002', 'Rumour Has It', 'A01', 'S01', 'Jazz'), ('M003', 'Turning Tales', 'A01', 'S01', 'Jazz'), ('M004', 'Don\'t you Remember', 'A01', 'S01', 'Jazz'), ('M005', 'Set Fire to the Rain', 'A01', 'S01', 'Rock'), ('M006', 'He Wont\'t Go', 'A01', 'S01', 'Pop'), ('M007', 'Take it All', 'A01', 'S01', 'Jazz'), ('M008', 'I\'ll Be Waiting', 'A01', 'S01', 'Pop');
